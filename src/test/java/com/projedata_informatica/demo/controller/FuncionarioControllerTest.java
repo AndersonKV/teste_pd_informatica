@@ -120,7 +120,7 @@ public class FuncionarioControllerTest {
     }
 
     @Test
-    void shouldReturnbirthdayPeople() {
+    void shouldReturnBirthdayPeople() {
         var result = funcionarioController.birthdayPeople(List.of(1,7));
 
         Assert.assertEquals("Alice", result.get(0).getNome());
